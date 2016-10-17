@@ -11,7 +11,8 @@ import { routing } from './app.routing'
 import { HomeComp } from './home.comp'
 import { SignupComp } from './signup.comp'
 import { LoginComp } from './login.comp'
-
+import { RepositoryComp } from './myreopo.comp'
+ 
 import { AuthenticationService } from './authentication.service'
 
 @NgModule({
@@ -27,8 +28,8 @@ import { AuthenticationService } from './authentication.service'
     AppComp,
     HomeComp,
     SignupComp,
-    LoginComp
-
+    LoginComp,
+    RepositoryComp
   ],
   bootstrap: [ AppComp ]
 })
